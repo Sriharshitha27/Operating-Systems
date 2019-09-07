@@ -1,0 +1,14 @@
+QUESTION 1:
+
+1)Command line arguments to be given : ./a.out (path of the file to be reversed) 
+2)If the directory is'nt present in the pwd , then it is created and new file is created with the name of the old file(given file) in the directory. If it already exists, then the new file is directly created inside the existing directory.
+3)In case of a text file that ends with a null character, the reversed(new) file shows a newline in the beginning.That is because when I reversed the content of the given text file , I have included the null character too.
+4)Error handling is done during opening and closing of the files.
+5)Works for the 1GB file (takes 15-20 seconds to finish)
+6)Name of the new file is the name of the old file itself.
+
+QUESTION 2:
+
+1)Command line arguments to be given : ./a.out <path of file1 new-file> <path of file2 old-file> <path of directory>
+2)Permissions of the directory are printed only if it exists.
+3)Error handling is done for opening and closing files.

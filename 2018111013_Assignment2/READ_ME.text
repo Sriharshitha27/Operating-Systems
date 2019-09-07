@@ -1,0 +1,16 @@
+I have implemented each function in each C file. It is as follows:
+header.h - header file
+main.c - all other functions are called from it.
+input.c - To read the input
+rem_space.c - to remove the unnecessary spaces and store the command and arguments
+cd.c - implement cd command
+ls.c - implement ls,ls -l,ls -a,ls -la
+big_ls.c - implement ls -l -a,ls -la [directory..],ls -l [directory...],ls -a [directory..],ls [directory..]
+echo.c - implement echo
+pwd.c - implement pwd
+proc.c - pinfo
+fg.c - foreground process
+bg.c - background process
+proc_exit - exit status of a process
+ 
+                 including a Makefile

@@ -1,0 +1,15 @@
+redir1 - handles output redirection
+redir2 - handles input redirection
+redir3 - handles < > cases
+setenv - sets environment variable
+unsetenv - unsets environment variable
+sigint - CtrlC handler
+sigtstp - CtrlZ handler
+parsepipe - parsing '|'
+pipe - pipe handler and execution
+jobs - handles jobs command
+kjobs - handles kjob command
+fgg - handles fg command
+bgg - handles bg command
+callcd - handles redirection with cd command
+

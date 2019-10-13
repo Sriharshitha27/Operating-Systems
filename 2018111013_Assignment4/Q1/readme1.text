@@ -1,0 +1,21 @@
+REPORT
+
+1) THE OUTPUT DISPLAYS THE TIME TAKEN BY EACH OF THE ALGORITHMS TO SORT A GIVEN SET OF NUMBERS.
+
+2) IN MOST OF THE CASES THE NORMAL QUICK SORT IS THE EFFICIENT ALGORTHM
+
+3) THE LAST ELEMENT OF THE ARRAY IS CHOSEN AS PIVOT IN ALL CASES
+
+4) NORMAL QUICK SORT IMPLEMENTATION
+		I have implemented the algorithm for quick sort taking the last element as the pivot. If the numbers are less than 5 it performs insertion sort. The same process keeps sorting the sub-arrays whereas in the following algorithms childprocesses are generated to do that.
+
+5) CONCURRENT QUICK SORT IMPLEMENTATION
+                 I Recursively made two child processes. One of which will sort the low subarray
+and the other will sort the high subarray.When the number of elements in the array for the process is less than 5,
+perform an Insertion sort to sort the elements of that array. I used the shmget, shmat functions for accessing the shared memory.
+
+6) MULTITHREADED QUICK SORT IMPLEMENTATION
+		I recursively made threads to sort the subarrays at each level.When the number of elements in the array for the process is less than 5,perform an Insertion sort to sort the elements of that array.
+
+7) FOR EACH PROCESS TIME TAKE TO SORT IS CALCULATED AND THE COMPARISON WITH RESPECT TO THE EFFICIENCY OF THE ALGORITHM IS DONE ACCORDING TO THAT.
+		

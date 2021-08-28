@@ -1,3 +1,4 @@
+I have implemented each function in each C file. It is as follows:
 redir1 - handles output redirection
 redir2 - handles input redirection
 redir3 - handles < > cases
@@ -12,4 +13,6 @@ kjobs - handles kjob command
 fgg - handles fg command
 bgg - handles bg command
 callcd - handles redirection with cd command
+                including a makefile
+Other details regarding how to run and the function implemented are in the pdf.
 

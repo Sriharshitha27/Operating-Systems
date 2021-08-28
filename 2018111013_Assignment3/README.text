@@ -14,5 +14,5 @@ fgg - handles fg command
 bgg - handles bg command
 callcd - handles redirection with cd command
                 including a makefile
-Other details regarding how to run and the function implemented are in the pdf.
+Other details regarding how to run and the functions implemented are in the pdf.
 
